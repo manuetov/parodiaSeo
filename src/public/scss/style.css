@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat", sans-serif !important;
+  overflow-x: hidden;
+  font-size: 1rem !important;
+}
+
+p, h1, h2, h3, h4 {
+  word-spacing: .5rem !important;
+  letter-spacing: .1rem !important;
+}
+
+.navbar-brand {
+  width: 119px;
+  height: 70px;
+}
+
+.intro {
+  height: auto;
+  background-image: url(../img/A-Complete-Guide-for-Local-SEO.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.intro .uno {
+  margin-top: 40px;
+}
+
+.intro .uno .uno {
+  background-color: rgba(205, 227, 247, 0.527);
+}
+
+.intro .uno .dos {
+  background-color: rgba(167, 184, 151, 0.644);
+}
+
+.intro .uno .tres {
+  background-color: rgba(167, 247, 200, 0.753);
+}
+
+.square {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background-color: violet;
+  margin-right: 15px;
+}
+
+.square-line {
+  height: 2px;
+  width: 200px;
+  display: inline-block;
+  background-color: violet;
+}
+
+.common-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid violet;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

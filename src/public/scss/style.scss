@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important; 
+  overflow-x: hidden;
+  font-size:1rem !important;
+}
+
+p, h1, h2, h3, h4{
+  word-spacing: .5rem !important;
+  letter-spacing: .1rem !important; 
+}
+
+.navbar-brand{
+    width: 119px;
+    height: 70px;
+}
+
+.intro {
+//   overflow:auto;
+  height: auto;
+  background-image: url(../img/A-Complete-Guide-for-Local-SEO.jpg);
+  background-position: center;
+  background-size: cover;
+  .uno {
+      margin-top:40px;
+      .uno{
+        background-color: rgba(205, 227, 247, 0.527);
+      }
+      .dos{
+        background-color: rgba(167, 184, 151, 0.644);
+      }
+      .tres{
+        background-color: rgba(167, 247, 200, 0.753);
+      }
+  }  
+}
+
+$navbar-dark-hover-color: rgba($white, .75);
+
+.square {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background-color: violet;
+  margin-right: 15px;
+}
+
+.square-line {
+  height: 2px;
+  width: 200px;
+  display: inline-block;
+  background-color: violet;
+}
+
+.common-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid violet;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card{
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover{
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+
+// #sideNav {
+//   padding-top: 80px;
+//   width: 285px;
+//   height: 65vh;
+//   position: fixed;
+//   right: -250px;
+//   top: 0;
+//   background: violet;
+//   z-index: 2;
+//   transition: 0.5s;
+// }
+
+
+// #menuBtn {
+//   width: 35px;
+//   position: fixed;
+//   right: 65px;
+//   top: 35px;
+//   z-index: 2;
+//   cursor: pointer;
+// }
+
+
+
+@media(min-width:568px) {
+  .end {
+      margin-left: auto
+  }
+}
+
+@media(max-width:768px) {
+  #post {
+      width: 100%
+  }
+}
+
+
+#post {
+  margin: 10px;
+  padding: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: #ecb21f;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: rgb(243, 239, 239);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px;
+  width: 50%
+}
+
+body {
+  background-color: rgb(241, 238, 238)
+}
+
+#nav-items li a,
+#profile {
+  text-decoration: none;
+  color: rgb(224, 219, 219);
+  background-color: rgb(243, 241, 241)
+}
+
+.comments {
+  margin-top: 5%;
+  margin-left: 20px
+}
+
+.darker {
+  border: 1px solid #ecb21f;
+  background-color: rgb(235, 233, 233);
+  float: right;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 10px
+}
+
+.comment {
+  border: 1px solid rgba(16, 46, 46, 1);
+  background-color: rgba(16, 46, 46, 0.973);
+  float: left;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 10px
+}
+
+
+.darker h4,
+.darker span {
+  display: inline
+}
+
+
+.darker p,
+.darker span {
+  color: rgb(184, 183, 183)
+}
+
+
+label {
+  color: rgb(212, 208, 208)
+}
+
+
+.form-group p a {
+  color: white
+}
+
+#checkbx {
+  background-color: black
+}
+
+#darker img {
+  margin-right: 15px;
+  position: static
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: rgb(241, 237, 237);
+  border: 1px solid rgba(16, 46, 46, 1);
+  border-radius: 12px
+}
+
+form {
+  border: 1px solid rgba(16, 46, 46, 1);
+  background-color: rgba(16, 46, 46, 0.973);
+  border-radius: 5px;
+  padding: 20px
+}
