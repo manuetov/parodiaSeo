@@ -64,24 +64,16 @@ h3 {
   .uno {
       margin-top:40px;
       .uno{
-        background-color: rgba(205, 227, 247, 0.76);
+        background-color: rgb(179, 218, 255);
       }
       .dos{
-        background-color: rgba(167, 184, 151, 0.815);
+        background-color: rgba(167, 184, 151, 0.877);
       }
       .tres{
         background-color: rgba(167, 247, 200, 0.89);
       }
   }  
 }
-//  @media(min-width:768px) and (max-width:992px){
-//     .basic-seo-col{
-//        display: flex;
-//        justify-content:center;
-//        align-items:center;
-//      } 
-//   } 
-
 
 .square {
   height: 12px;
@@ -190,6 +182,16 @@ h3 {
     color: #e95e37;
 }
 
+
+
+
+//  @media(min-width:768px) and (max-width:992px){
+//     .basic-seo-col{
+//        display: flex;
+//        justify-content:center;
+//        align-items:center;
+//      } 
+//   } 
 
 
 
