@@ -3,7 +3,7 @@ const app = express();
 
 const morgan = require('morgan');
 const path = require('path');
-// const { use } = require('./routes');
+const { use } = require('./routes');
 
 // settings
 app.set('port', 3000);

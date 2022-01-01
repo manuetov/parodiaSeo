@@ -1,13 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-body {
-  font-family: "Montserrat", sans-serif !important;
-  overflow-x: hidden;
-  font-size: 1rem !important;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-p, h1, h2, h3, h4 {
-  word-spacing: .5rem !important;
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem !important;
+  color: black !important;
+}
+
+p, aside, li, h1, h2, h3, h4 {
+  word-spacing: .3rem !important;
   letter-spacing: .1rem !important;
+}
+
+h4 {
+  line-height: 1.5 !important;
+}
+
+h2 {
+  color: #fa67fa;
+}
+
+h3 {
+  color: #864df7;
+}
+
+.nav-item {
+  padding: 0px 8px;
+  margin: 0px 3px;
+  margin: center;
+  border-radius: 5px;
+  background-color: #666464;
+}
+
+.nav-item:hover {
+  background-color: #923a92;
+}
+
+.nav-link {
+  color: red;
+}
+
+.fas {
+  padding-right: 5px;
 }
 
 .navbar-brand {
@@ -27,15 +64,15 @@ p, h1, h2, h3, h4 {
 }
 
 .intro .uno .uno {
-  background-color: rgba(205, 227, 247, 0.527);
+  background-color: rgba(205, 227, 247, 0.76);
 }
 
 .intro .uno .dos {
-  background-color: rgba(167, 184, 151, 0.644);
+  background-color: rgba(167, 184, 151, 0.815);
 }
 
 .intro .uno .tres {
-  background-color: rgba(167, 247, 200, 0.753);
+  background-color: rgba(167, 247, 200, 0.89);
 }
 
 .square {
@@ -61,5 +98,191 @@ p, h1, h2, h3, h4 {
   border: 2px solid violet;
   font-weight: bold;
   cursor: pointer;
+}
+
+.card, .common-btn {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover, .common-btn:hover, .nav-item:hover {
+  -webkit-box-shadow: 3px 4px 4px 1px #a6a8aa;
+          box-shadow: 3px 4px 4px 1px #a6a8aa;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*============ COLORS ================*/
+.postit[data-color="blue"] {
+  background: #b8d8d8;
+}
+
+.postit[data-color="blue"] .description {
+  color: #506568;
+}
+
+.postit[data-color="purple"] {
+  background: #864df781;
+}
+
+.postit[data-color="purple"] .description {
+  color: #fcfcfc;
+}
+
+.postit[data-color="purple"] .category {
+  color: #5a283d;
+}
+
+.postit[data-color="green"] {
+  background: #03b30334;
+}
+
+.postit[data-color="green"] .description {
+  color: black;
+}
+
+.postit[data-color="green"] .category {
+  color: #2a8ed1;
+}
+
+.postit[data-color="red"] {
+  background: #fc05053d;
+}
+
+.postit[data-color="orange"] .description {
+  color: #000000;
+}
+
+.postit[data-color="orange"] .category {
+  color: #e95e37;
+}
+
+.card[data-color="yellow"] {
+  background: #ffe28c;
+}
+
+.card[data-color="yellow"] .description {
+  color: #b25825;
+}
+
+.card[data-color="yellow"] .category {
+  color: #d88715;
+}
+
+.card[data-color="brown"] {
+  background: #d6c1ab;
+}
+
+.card[data-color="brown"] .description {
+  color: #75442e;
+}
+
+.card[data-color="brown"] .category {
+  color: #a47e65;
+}
+
+.card[data-color="orange"] {
+  background: #ff8f5e;
+}
+
+.card[data-color="orange"] .description {
+  color: #772510;
+}
+
+.card[data-color="orange"] .category {
+  color: #e95e37;
+}
+
+#post {
+  margin: 10px;
+  padding: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: #ecb21f;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #f3efef;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 13px;
+  width: 50%;
+}
+
+body {
+  background-color: #f1eeee;
+}
+
+#nav-items li a,
+#profile {
+  text-decoration: none;
+  color: #e0dbdb;
+  background-color: #f3f1f1;
+}
+
+.comments {
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+.darker {
+  border: 1px solid #ecb21f;
+  background-color: #ebe9e9;
+  float: right;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.comment {
+  border: 1px solid #102e2e;
+  background-color: rgba(16, 46, 46, 0.973);
+  float: left;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.darker h4,
+.darker span {
+  display: inline;
+}
+
+.darker p,
+.darker span {
+  color: #b8b7b7;
+}
+
+label {
+  color: #d4d0d0;
+}
+
+.form-group p a {
+  color: white;
+}
+
+#checkbx {
+  background-color: black;
+}
+
+#darker img {
+  margin-right: 15px;
+  position: static;
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: #f1eded;
+  border: 1px solid #102e2e;
+  border-radius: 12px;
+}
+
+form {
+  border: 1px solid #7b8686;
+  background-color: rgba(16, 46, 46, 0.973);
+  border-radius: 5px;
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */

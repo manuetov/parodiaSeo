@@ -1,15 +1,17 @@
 const express = require('express');
-const router = express.Router();
+const router = express.Router(); // se encarga de crear las rutas
 
-router.get('/', (req,res) =>{
+// pariodiaseo.com/index.html
+router.get('/', (req, res) =>{
     // res.render(path.join(__dirname, 'views/index.ejs'));
     res.render('index.html', { title: 'Parodia Seo' });
 
 });
 
-router.get('/contact', (req,res) =>{
-    // res.render(path.join(__dirname, 'views/index.ejs'));
-    res.render('contact.html', { title: 'Página de contacto' });
+// pariodiaseo.com/seoprincipiantes.html
+router.get('/seo', (req, res) =>{
+    // res.render(path.join(__dirname, 'views/seoprincipiantes.ejs'));
+    res.render('seo.html', { title: 'Seo para principiantes' });
 
 });
 

@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -6,22 +8,55 @@
 
 body {
   font-family: "Montserrat", sans-serif !important; 
-  overflow-x: hidden;
-  font-size:1rem !important;
+  // overflow-x: hidden;
+  font-size: 1rem !important;
+  color: black !important;
 }
 
-p, h1, h2, h3, h4{
-  word-spacing: .5rem !important;
+p, aside, li, h1, h2, h3, h4{
+  word-spacing: .3rem !important;
   letter-spacing: .1rem !important; 
 }
 
-.navbar-brand{
-    width: 119px;
-    height: 70px;
+h4{
+  line-height: 1.5 !important;
 }
 
+h2 {
+  color: rgb(250, 103, 250);
+}
+
+h3 {
+  color: #864df7;
+}
+
+// --------------- navegacion ---------------------------
+
+.nav-item {
+  padding: 0px 8px;
+  margin: 0px 3px;
+  margin: center;
+  border-radius: 5px;
+  background-color: #666464;
+}
+
+.nav-item:hover {
+  background-color: #923a92;
+}
+
+.nav-link {
+  color: red;
+}
+
+.fas {
+  padding-right: 5px;
+}
+.navbar-brand{
+  width: 119px;
+  height: 70px;
+ }
+
 .intro {
-//   overflow:auto;
   height: auto;
   background-image: url(../img/A-Complete-Guide-for-Local-SEO.jpg);
   background-position: center;
@@ -29,18 +64,24 @@ p, h1, h2, h3, h4{
   .uno {
       margin-top:40px;
       .uno{
-        background-color: rgba(205, 227, 247, 0.527);
+        background-color: rgba(205, 227, 247, 0.76);
       }
       .dos{
-        background-color: rgba(167, 184, 151, 0.644);
+        background-color: rgba(167, 184, 151, 0.815);
       }
       .tres{
-        background-color: rgba(167, 247, 200, 0.753);
+        background-color: rgba(167, 247, 200, 0.89);
       }
   }  
 }
+//  @media(min-width:768px) and (max-width:992px){
+//     .basic-seo-col{
+//        display: flex;
+//        justify-content:center;
+//        align-items:center;
+//      } 
+//   } 
 
-$navbar-dark-hover-color: rgba($white, .75);
 
 .square {
   height: 12px;
@@ -67,15 +108,191 @@ $navbar-dark-hover-color: rgba($white, .75);
   cursor: pointer;
 }
 
-.card{
+.card, .common-btn{
   transition: all 0.2s ease;
   cursor: pointer;
 }
 
-.card:hover{
-  box-shadow: 5px 6px 6px 2px #e9ecef;
+.card:hover, .common-btn:hover, .nav-item:hover{
+  box-shadow: 3px 4px 4px 1px #a6a8aa;
   transform: scale(1.1);
 }
+
+// ------------------------- post -it -------------------------------------------------------------------
+
+//     box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+
+/*============ COLORS ================*/
+.postit[data-color="blue"] {
+    background: #b8d8d8;
+}
+.postit[data-color="blue"] .description {
+    color: #506568;
+}
+// ------------ violeta -------------
+.postit[data-color="purple"] {
+  background: #864df781;
+}
+.postit[data-color="purple"] .description {
+  color: #fcfcfc;
+}
+.postit[data-color="purple"] .category {
+  color: #5a283d;
+}
+// ------------- verde ---------------
+.postit[data-color="green"] {
+    background: #03b30334;
+}
+.postit[data-color="green"] .description {
+    color: hsl(0, 0%, 0%);
+}
+.postit[data-color="green"] .category {
+    color: #2a8ed1;
+}
+// ------------- rojo ----------------
+.postit[data-color="red"] {
+  background: #fc05053d;
+}
+.postit[data-color="orange"] .description {
+  color: #000000;
+}
+.postit[data-color="orange"] .category {
+  color: #e95e37;
+}
+
+.card[data-color="yellow"] {
+    background: #ffe28c;
+}
+.card[data-color="yellow"] .description {
+    color: #b25825;
+}
+.card[data-color="yellow"] .category {
+    color: #d88715;
+}
+
+.card[data-color="brown"] {
+    background: #d6c1ab;
+}
+.card[data-color="brown"] .description {
+    color: #75442e;
+}
+.card[data-color="brown"] .category {
+    color: #a47e65;
+}
+
+.card[data-color="orange"] {
+    background: #ff8f5e;
+}
+.card[data-color="orange"] .description {
+    color: #772510;
+}
+.card[data-color="orange"] .category {
+    color: #e95e37;
+}
+
+
+
+
+
+// ----------------------------------- footer --------------------------------------------------------
+
+// body {
+//     background-color: #f3f6fd;
+//     font-size: 11.5px;
+//     font-weight: bold;
+//     color: rgb(189, 196, 203)
+// }
+
+// .card {
+//     padding: 2% 7%;
+//     color: #646771;
+//     background-color: #16151a
+// }
+
+// ul {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0
+// }
+
+// ul>li {
+//     padding: 4px
+// }
+
+// ul>li:hover {
+//     color: #957bda;
+//     cursor: pointer
+// }
+
+// hr {
+//     border-width: 3px
+// }
+
+// .social>i {
+//     padding: 1%;
+//     font-size: 15px
+// }
+
+// .social>i:hover {
+//     color: #957bda;
+//     cursor: pointer
+// }
+
+// .policy>div {
+//     padding: 4px
+// }
+
+// .heading {
+//     font-family: 'Titillium Web', sans-serif;
+//     color: white
+// }
+
+// .divider {
+//     border-top: 2px solid rgba(189, 196, 203, 0.5);
+// }
+
+
+// body {
+//   background-color: #CE93D8
+// }
+
+// .bg-black {
+//   background-color: #000
+// }
+
+
+// .navbar-collapse.collapse.in {
+//   display: block !important;
+// }
+
+// .dropdown-toggle {
+//   color: gray;
+//   padding: 3px 10px;
+//   position: absolute
+// }
+
+// .dropdown-toggle:hover {
+//   color: #fff
+// }
+
+// .dropdown-menu {
+//   margin-left: 15px;
+//   width: 120px;
+//   margin-top: 0px
+// }
+
+// .dropdown-item:hover {
+//   background-color: #000;
+//   color: #fff
+// }
+
+// @media (max-width: 576px) {
+//   .nav-item {
+//       width: 100%;
+//       text-align: left
+//   }
+// }
+
 
 // #sideNav {
 //   padding-top: 80px;
@@ -101,17 +318,17 @@ $navbar-dark-hover-color: rgba($white, .75);
 
 
 
-@media(min-width:568px) {
-  .end {
-      margin-left: auto
-  }
-}
+// @media(min-width:568px) {
+//   .end {
+//       margin-left: auto
+//   }
+// }
 
-@media(max-width:768px) {
-  #post {
-      width: 100%
-  }
-}
+// @media(max-width:768px) {
+//   #post {
+//       width: 100%
+//   }
+// }
 
 
 #post {
@@ -204,7 +421,7 @@ label {
 }
 
 form {
-  border: 1px solid rgba(16, 46, 46, 1);
+  border: 1px solid rgb(123, 134, 134);
   background-color: rgba(16, 46, 46, 0.973);
   border-radius: 5px;
   padding: 20px
