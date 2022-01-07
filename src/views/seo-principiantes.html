@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include ('partials/head.html'); %>
+</head>
+
+<body>
+    <div class="container-fluid lh-lg">
+        <header class="row"> 
+            <!-- ================================ Menú navegación ======================================== -->
+            <nav>
+             <%- include ('partials/navigation.html'); %>
+            </nav>
+        </header>
+        <!-- ============================================== 1 Seo-principiantes ====================================================== -->
+        <section class="row mt-5 p-5">
+            <div class="col-12 ">
+                <h1 class="text-center fw-bolder mt-5">Seo Básico - para principiantes</h1><br>
+                <h2 class="text-center">Crea títulos de página que sea únicos y atractivos</h2><hr><br>
+            </div> 
+            <!--------------------------------------- 1. parte izquierda ------------------------------------------------------------------>
+            <div class="col-xl-6 col-lg-12 mt-5 text-justify">
+                <h3 class="text-center">Usa los títulos de las páginas con las etiquetas <spam class="fw-bold">title</spam></h3><br>
+                <ul>
+                    <li>
+                        <p>La etiqueta <b>< title ></b> indica tanto a los motores de búsqueda como a los usuarios la temática de la web.</p>
+                    </li>
+                    <li>
+                        Esta etiqueta se debe colocar a su vez dentro de la etiqueta <b>< head ></b> en el documento <b>HTML</b> (1). 
+                    </li><br>
+                </ul>
+            </div>
+            <!--------------------------------------- 1. parte derecha ------------------------------------------------------------------>
+            <div class="col-xl-6 col-lg-12 mt-5 text-justify">
+                <img src="./img/seo_1.jpg" style="width:100%; height:auto" alt=""><hr>
+            </div>
+            <!--------------------------------------- 2º parte izquierda ------------------------------------------------------------------>
+            <div class="col-xl-6 col-lg-12 text-justify">
+                <h3 class="mt-5 text-center">El contenido de la etiqueta title se muestra en los resultados de búsqueda</h3><br>
+                <ul>
+                    <li>
+                        <p>
+                            Si la página aparece en los resultados de búsqueda, <b>el contenido de la etiqueta title, aparece en la primera línea de los
+                            resultados</b>. Si son las mismas palabras que las que ha buscado el usuario, <b>las palabras del título aparecerán destacadas en negrita.</b> 
+                            Esto ayudará a reconocer la relevancia de la página (2).</p><br>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="col-xl-6 col-lg-12 postit p-2 rounded-2 align-self-center " data-background="color" style="width:50%; height:100%" data-color="purple">
+                <img class="ps-2" src="./img/robot_google.png" style="width:50px; height:100px">
+                <aside class="description ps-5 w-75 d-inline-block text-right align-top">La optimización de un sitio web para los buscadores afecta únicamente a los
+                    resultados de búsqueda orgánicos, no a los resultados pagados o 
+                    patrocinados, como sería el caso de Google AdWords</aside>
+            </div> -->
+            <!--------------------------------------- 2º parte derecha ------------------------------------------------------------------>
+            <div class="col-xl-6 col-lg-12 mt-5">                            
+                <img src="./img/seo_2.jpg" style="width:100%; height:auto" alt=""><hr>
+            </div>
+            <!--------------------------------------- 3. parte iquierda ------------------------------------------------------------------>
+            <div class="col-xl-6 col-lg-12 mt-5 text-justify">
+                <h3 class="text-center">Usa un único título por cada página </h3><br>
+                <ul>
+                    <li>
+                        <p>El título de la página principal puede incluir el <b>nombre del sitio web o negocio</b> y podría incluir otro tipo de información relevante,
+                            como la <b>dirección física de la empresa o sus principales actividades u ofertas </b>(3).</p><br>
+                    </li>
+                </ul>              
+                <div class="postit rounded" data-color="purple">
+                    <p class="ps-3" ><b class="fs-3">Nota: </b>La optimización de un sitio web para los buscadores afecta únicamente a los
+                        resultados de búsqueda orgánicos, no a los resultados pagados o 
+                        patrocinados, como sería el caso de Google AdWords</p>
+                </div>       
+            </div> 
+                <!--------------------------------------- 3. parte derecha ------------------------------------------------------------------>
+            <div class="col-xl-6 col-lg-12 mt-5">                            
+                <img src="./img/seo_3.jpg" style="width:100%; height:auto" alt=""><hr>
+            </div>
+            <!--------------------------------------- 4. parte izquierda ------------------------------------------------------------------>
+            <div class="col-xl-6 col-lg-12 mt-5 text-justify">
+                <h3 class="text-center">Utiliza la metaetiqueta description</h3><br>
+                <ul>
+                    <li>
+                        <p>La metaetiqueta description de una página proporciona a Google y
+                            a otros motores de búsqueda un resumen sobre la página (1).</p>
+                    </li>
+                    <li>
+                        <p>Mientras que el título de una página contiene unas pocas
+                            palabras, la metaetiqueta description podría contener un par de
+                            frases o incluso un párrafo corto.</p> 
+                    </li>
+                    <li>
+                        <p>Al igual que la etiqueta < title >, la metaetiqueta 
+                            (1) La metaetiqueta description de nuestra página principal ofrece una breve
+                            reseña del sitio.
+                            description se coloca dentro de la etiqueta < head > en el
+                            documento HTML.</p>
+                    </li>
+                </ul>
+            </div>
+            
+
+            <!--------------------------------------- 4. parte derecha ------------------------------------------------------------------>
+            <div class="col-xl-6 col-lg-12 mt-5 text-justify align-self-center">
+                <img src="./img/seo_4.jpg" style="width:100%; height:auto" alt=""><hr>
+            </div>
+
+            <div class="col-lg-12 mt-5 text-justify">
+                <h3 class="text-center">¿Cuáles son las ventajas de las etiquetas
+                    metadescripción?</h3><br>
+                <ul>
+                    <li>
+                        <p>Las metaetiquetas description son importantes porque Google
+                            podría utilizarlas como fragmentos de descripción de tus páginas.
+                            Ten en cuenta que decimos “podría” porque Google podría optar
+                            por utilizar una parte relevante del texto visible de tu página si
+                            ésta concuerda con la consulta del usuario. </p>
+                    </li>
+                    <li>
+                        <p>Agregar metaetiquetas description para cada una de las páginas es
+                            siempre una buena práctica en caso de que Google no pueda
+                            encontrar un buen texto a utilizar como fragmento</p> 
+                    </li>
+                </ul>
+                <div class="postit rounded " data-color="purple">
+                    <p class="ps-3"><b class="fs-3 ">Nota: </b>Tener una metaetiqueta diferente para cada página <b>ayuda tanto a los usuarios como a Google,
+                        especialmente en búsquedas en las que se obtiene las páginas indexadas de tu
+                        dominio </b> (por ejemplo, búsquedas con el operador <b>site:dominio => site:parodiaseo.com </b>) 
+                         Esto dará como resultado todas las páginas o Urls que Google tiene indexado de esta web.
+                         Si tu sitio tiene miles o incluso millones de páginas, la elaboración de metaetiquetas description a mano 
+                         no será factible. En este caso, Google puede generarlas automáticamente basándose en el contenido de cada página.</p>
+                </div>  
+            </div>
+
+        </section>
+           
+        <!-- =================================================== 2 SECCIÓN =================================================================== -->
+        <span class="square-line position-relative top-50 start-50 m-5 translate-middle"></span> 
+        <div class="container">
+            <section class="row">
+                
+                <h2 class="text-center fw-bolder">Recomendaciones</h2>   
+                <!--------------------------------------- 1. parte izquierda ------------------------------------------------------------------>
+                <div class="postit col-md-6 col-lg-6 col-sm-12 mt-5 p-3 rounded-2" data-background="color" data-color="green">
+                    <img class="col-lg-6 col-md-12 col-sm-12 ps-2" src="./img/robot_google.png" style="width:100px; height:100px">
+                    <p class=" ps-4 w-75 fs-1 fw-bolder text-center text-decoration-underline d-inline-block align-top">SI hacer</p>
+                    <ul class="ps-5 pt-3 w-100 d-inline-block align-top">
+                        <li>
+                            <h4>Crea etiquetas title únicas para cada página.</h4><br>
+                        </li>
+                        <li> 
+                            <h4>Elige un título que indique claramente el tema de la página.</h4><br>
+                        </li>
+                        <li>
+                            <h4>Describe con precisión el contenido de la página</h4><br>
+                        </li>
+                        <li>
+                            <h4>Lo ideal es que cada una de tus páginas tenga una etiqueta title única, que ayude a Google a 
+                                distinguir esa página del resto de páginas de tu sitio.</h4><br> 
+                        </li>
+                        <li> 
+                            <h4>Usa títulos descriptivos breves.</h4><br>
+                        </li>
+                        <li>
+                            <h4>Los títulos pueden ser concisos pero informativos. Si el título es demasiado largo, Google
+                                mostrará tan solo una parte del mismo en el resultado de búsqueda.</h4><br>
+                        </li>
+                        <li>
+                            <h4>Resume de forma precisa el contenido de la página</h4>
+                        </li>
+                        <li>
+                            <h4>Utiliza descripciones únicas para cada página</h4>
+                        </li>
+                    </ul>
+                </div>
+                <!--------------------------------------- 3. parte derecha ------------------------------------------------------------------>
+                <div class="postit col-md-6 col-lg-6 col-sm-12 mt-5 p-3 rounded-2" data-background="color" data-color="red">
+                    <img class="col-lg-6 col-md-12 col-sm-12 ps-2" src="./img/robot_triste_google.png" style="width:100px; height:100px">
+                    <p class=" ps-4 w-75 fs-1 fw-bolder text-center text-decoration-underline d-inline-block align-top">NO</p>
+                    <ul class="ps-5 pt-3 w-100 d-inline-block align-top">
+                        <li>
+                            <h4> Un título que no tenga ninguna relación con el contenido de la página. </h4><br>
+                        </li>
+                        <li>
+                            <h4> El uso de títulos predeterminados o demasiado genéricos como “Sin título” o “Página nueva”.</h4><br>
+                        </li>
+                        <li>
+                            <h4> Títulos muy largos que no sean útiles para los usuarios. </h4><br>
+                        </li>
+                        <li>
+                            <h4> Rellenar las etiquetas title con palabras clave innecesaria. </h4><br>
+                        </li>
+                        <li>
+                            <h4> Una metaetiqueta description con contenido no relacionado con la página </h4><br>
+                        </li>
+                        <li>
+                            <h4> Una descripción con sólo palabras clave</h4><br>
+                        </li>
+                        <li>
+                            <h4> Copiar y pegar todo el contenido del documento en una metaetiqueta description</h4><br>
+                        </li>
+                        <li>
+                            <h4> No Utilizar sólo una <b>única metaetiqueta description</b> en todas las páginas de tu sitio o en un gran grupo
+                                de páginas de tu sitio</h4>
+                        </li>
+                    </ul>
+                </div>         
+            </section>
+
+            <div class="icons position-relative p-5 ">
+                <!-- <span class="position-absolute bottom-0 start-50"><i class="fas fa-home fs-1"></i></span>  -->
+                <a class="position-absolute bottom-0 end-0 fs-3 text-decoration-none" href="/facilita-navegacion">
+                    <i class="fas fa-long-arrow-alt-right text-danger fs-1"></i> Facilita la navegación de tu web</a>
+            </div>
+        </div>    
+
+        
+        <footer>
+
+            <%- include('partials/footer.html') %>
+        </footer>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+    <script srd=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js></script>
+</body>
+
+</html>
+
+
+<!-- ===================================== Formulario =================================================
+<div class="card formulario">
+    <div class="car-header bg-dark text-light tex-center">
+        <h3>Contáctanos</h3>
+    </div>
+    <div class="card-body">
+        <form action="">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <textarea class="text" class="form-control"name="" id="" cols="30" rows="10"
+                    placeholder="Texto del mensaje">
+                </textarea>        
+            </div>
+            <div class="form-group">
+                <button class="btn btn-prymary btn-block">Enviar mensaje</button>
+            </div> 
+        </form>
+    </div> -->

@@ -8,163 +8,87 @@
 <body>
     <div class="container-fluid lh-lg">
         <header class="row"> 
-            <!-- ================================ Menú navegación ======================================== -->
+            <!-- ========================================= Menú navegación ============================================== -->
             <nav>
              <%- include ('partials/navigation.html'); %>
             </nav>
         </header>
-        <!-- ============================================== 1 Seo-principiantes ====================================================== -->
+            <!-- ============================================== 1 Seo  =================================================== -->
         <section class="row mt-5 p-5">
             <div class="col-12 ">
-                <h1 class="text-center fw-bolder mt-5">Seo Básico - para principiantes</h1><br>
-                <h2 class="text-center">Crea títulos de página que sea únicos y atractivos</h2><hr><br>
+                <h1 class="text-center fw-bolder mt-5">¿Qué es el Seo?</h1><br>
+                <h2 class="text-center">Search Engine Optimization, en español Optimización para los Motores de Búsqueda</h2><hr><br>
+                <p>El SEO aumenta la eficacia de su sitio web,<b> no basta con estar en Internet, hay que hacer un buen diseño de la web,
+                     haciendo las cosas bien desde el principio</b>, teniendo en cuenta todos sus aspectos, como la elección de un <b>alojamiento 
+                     adecuado, un dominio que nos represente, o un diseño de página web idóneo y técnicamente adecuado, así como una 
+                     estrategia de social media ligada a nuestro trabajo de posicionamiento en buscadores..</b></p>
             </div> 
+
             <!--------------------------------------- 1. parte izquierda ------------------------------------------------------------------>
-            <div class="col-xl-6 col-lg-12-offset-4 mt-5 text-justify">
-                <h3 class="text-center">Usa los títulos de las páginas con las etiquetas <spam class="fw-bold">title</spam></h3><br>
-                <ul>
-                    <li>
-                        <p>La etiqueta <b>< title ></b> indica tanto a los motores de búsqueda como a los usuarios la temática de la web.</p>
-                    </li>
-                    <li>
-                        Esta etiqueta se debe colocar a su vez dentro de la etiqueta <b>< head ></b> en el documento <b>HTML</b> (1). 
-                    </li><br>
-                </ul>
-            </div>
-            <!--------------------------------------- 1. parte derecha ------------------------------------------------------------------>
-            <div class="col-xl-6 col-lg-12 mt-5 text-justify">
-                <img src="./img/seo_1.jpg" style="width:100%; height:auto" alt=""><hr>
+            <div class="row">
+                <div class="col-xl-6 col-lg-12 order-xl-1 order-sm-1 order-lg-2 mt-5 text-justify">
+                    <ul>
+                        <li>
+                            <p> Desde el punto de vista del usuario, <b>el SEO facilitará la búsqueda de un término y el motor de búsqueda podrá 
+                                devolver los resultados más relevantes</b>. El trabajo duro habrá dado sus frutos si conseguimos estar entre los 
+                                primeros resultados, lo cual aumentará nuestro número de visitas y, por tanto, muy probablemente, nuestras ventas.</p>
+                        </li>
+                        <li>
+                            <p>Optimizar nuestro sitio web para los motores de búsqueda no es fácil, encontraremos cientos de directrices y mejores 
+                                prácticas que cambian rápidamente porque debemos ser conscientes de que <b>es un trabajo constante que da sus frutos a
+                                largo plazo</b>. El SEO consta de <b>dos componentes principales</b> de los que hablaremos a coontinuación: <b> el SEO on page y 
+                                el SEO off page</b>.</p> 
+                        </li><br>
+                    </ul>    
+                </div>
+            
+                <!--------------------------------------- 1. parte derecha ------------------------------------------------------------------>
+                <div class="col-xl-6 col-lg-12 order-xl-2 order-lg-1 mt-5 align-self-centertext-justify">
+                    <img src="./img/seo.jpg" style="width:100%; height:100%" alt="">
+                </div>
             </div>
             <!--------------------------------------- 2º parte izquierda ------------------------------------------------------------------>
-            <div class="col-xl-6 col-lg-12-offset-4 text-justify">
-                <h3 class="mt-5 text-center">El contenido de la etiqueta title se muestra en los resultados de búsqueda</h3><br>
-                <ul>
-                    <li>
-                        <p>
-                            Si la página aparece en los resultados de búsqueda, <b>el contenido de la etiqueta title, aparece en la primera línea de los
-                            resultados</b>. Si son las mismas palabras que las que ha buscado el usuario, <b>las palabras del título aparecerán destacadas en negrita.</b> 
-                            Esto ayudará a reconocer la relevancia de la página (2).</p><br>
-                    </li>
-                </ul>
-            </div>
-            <!-- <div class="col-xl-6 col-lg-12 postit p-2 rounded-2 align-self-center " data-background="color" style="width:50%; height:100%" data-color="purple">
-                <img class="ps-2" src="./img/robot_google.png" style="width:50px; height:100px">
-                <aside class="description ps-5 w-75 d-inline-block text-right align-top">La optimización de un sitio web para los buscadores afecta únicamente a los
-                    resultados de búsqueda orgánicos, no a los resultados pagados o 
-                    patrocinados, como sería el caso de Google AdWords</aside>
-            </div> -->
-            <!--------------------------------------- 2º parte derecha ------------------------------------------------------------------>
-            <div class="col-xl-6 col-lg-12">                            
-                <img src="./img/seo_2.jpg" style="width:100%; height:auto" alt=""><hr>
-            </div>
-            <!--------------------------------------- 3. parte iquierda ------------------------------------------------------------------>
-            <div class="col-xl-6 col-lg-12-offset-4 mt-5 text-justify">
-                <h3 class="text-center">Usa un único título por cada página </h3><br>
-                <ul>
-                    <li>
-                        <p>El título de la página principal puede incluir el <b>nombre del sitio web o negocio</b> y podría incluir otro tipo de información relevante,
-                            como la <b>dirección física de la empresa o sus principales actividades u ofertas </b>(3).</p><br>
-                    </li>
-                </ul>              
-                <div class="card">
-                    <p><b>Nota: </b>La optimización de un sitio web para los buscadores afecta únicamente a los
-                        resultados de búsqueda orgánicos, no a los resultados pagados o 
-                        patrocinados, como sería el caso de Google AdWords</p>
-                </div>       
-            </div> 
-                    <!--------------------------------------- 3. parte derecha ------------------------------------------------------------------>
-            <div class="col-xl-6 col-lg-12">                            
-                <img src="./img/seo_3.jpg" style="width:100%; height:auto" alt="">  
-            <div>
+            <div class="row mt-5">
+                <div class="col-xl-6 col-lg-12 mt-5 text-justify align-self-center">
+                    <img src="./img/seonofpage.jpg" style="width:100%; height:100%" alt="">
+                </div>
+                <div class="col-xl-6 col-lg-12 mt-5 text-justify">
+                    <h3 class="text-center">Seo OnPage</h3><br>
+                    <ul>
+                        <li>
+                            <p>El Seo OnPage o posicionamiento interno <b>son aquellas acciones que deben integrarse en nuestra web y que están
+                                relacionadas con el diseño</b>, la <b>correcta selección de palabras clave en nuestro contenido, la accesibilidad, la 
+                                navegación, el uso de dispositivos móviles, las etiquetas en el código, el sitemap, etc</b>. Por eso el SEO debe estar
+                                desde un principio presente a la hora de construir nuestra web.</p>
+                        </li>
+                    </ul>
+                    <h3 class="text-center">Seo OffPage</h3><br>
+                    <ul>
+                        <li>
+                            <p>El posicionamiento externo se refiere a las acciones que podemos hacer fuera de nuestra web, como <b>crear una buena estructura
+                                de enlaces hacia nuestra web (link building), crear una comunidad en las redes sociales o promocionar nuestra web a través 
+                                de un blog</b>. Todo esto mejorará nuestro PageRank.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>       
         </section>
-           
-        <!-- =================================================== 2 SECCIÓN =================================================================== -->
-        <span class="square-line position-relative top-50 start-50 m-5 translate-middle"></span> 
-        
-        <section class="row ">
-            
-            <h2 class="text-center fw-bolder">Recomendaciones</h2>   
-            <!--------------------------------------- 1. parte izquierda ------------------------------------------------------------------>
-            <div class="postit col-md-6 col-lg-6 col-sm-12 mt-5 p-3 rounded-2" data-background="color" data-color="green">
-                <img class="col-lg-6 col-md-12 col-sm-12 ps-2" src="./img/robot_google.png" style="width:100px; height:100px">
-                <p class=" ps-4 w-75 fs-1 fw-bolder text-center text-decoration-underline d-inline-block align-top">SI</p>
-                <ul class="ps-5 pt-3 w-100 d-inline-block align-top">
-                    <li>
-                        <h4>Crea etiquetas title únicas para cada página.</h4><br>
-                    </li>
-                    <li> 
-                        <h4>Elige un título que indique claramente el tema de la página.</h4><br>
-                    </li>
-                    <li>
-                        <h4>Describe con precisión el contenido de la página</h4><br>
-                    </li>
-                    <li>
-                        <h4>Lo ideal es que cada una de tus páginas tenga una etiqueta title única, que ayude a Google a 
-                            distinguir esa página del resto de páginas de tu sitio.</h4><br> 
-                    </li>
-                    <li> 
-                        <h4>Usa títulos descriptivos breves.</h4><br>
-                    </li>
-                    <li>
-                        <h4>Los títulos pueden ser concisos pero informativos. Si el título es demasiado largo, Google
-                            mostrará tan solo una parte del mismo en el resultado de búsqueda.</h4>
-                    </li>
-                </ul>
-            </div>
-            <!--------------------------------------- 3. parte derecha ------------------------------------------------------------------>
-            <div class="postit col-md-6 col-lg-6 col-sm-12 mt-5 p-3 rounded-2" data-background="color" data-color="red">
-                <img class="col-lg-6 col-md-12 col-sm-12 ps-2" src="./img/robot_triste_google.png" style="width:100px; height:100px">
-                <p class=" ps-4 w-75 fs-1 fw-bolder text-center text-decoration-underline d-inline-block align-top">NO</p>
-                <ul class="ps-5 pt-3 w-100 d-inline-block align-top">
-                    <li>
-                        <h4> Un título que no tenga ninguna relación con el contenido de la página. </h4><br>
-                    </li>
-                    <li>
-                        <h4> El uso de títulos predeterminados o demasiado genéricos como “Sin título” o “Página nueva”.</h4><br>
-                    </li>
-                    <li>
-                        <h4> Títulos muy largos que no sean útiles para los usuarios. </h4><br>
-                    </li>
-                    <li>
-                        <h4> Rellenar las etiquetas title con palabras clave innecesaria. </h4><br>
-                    </li>
-                </ul>
-            </div>         
-        </section>
+        <div class="icons position-relative p-5">
+            <!-- <span class="position-absolute bottom-0 start-50"><i class="fas fa-home fs-1"></i></span>  -->
+            <a class="position-absolute bottom-0 end-0 fs-3 text-decoration-none" href="/seo-principiantes"><i class="fas fa-long-arrow-alt-right text-danger fs-1"></i> Seo-Básico para principiantes</a>
+        </div>
 
         <%- include('partials/footer.html') %>
 
-    </div>
+    </div> <!--//cierre del container  -->
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
-    <script srd=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+ crossorigin="anonymous"></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+<script srd=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js></script>
 </body>
 
 </html>
-
-
-<!-- ===================================== Formulario =================================================
-<div class="card formulario">
-    <div class="car-header bg-dark text-light tex-center">
-        <h3>Contáctanos</h3>
-    </div>
-    <div class="card-body">
-        <form action="">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <textarea class="text" class="form-control"name="" id="" cols="30" rows="10"
-                    placeholder="Texto del mensaje">
-                </textarea>        
-            </div>
-            <div class="form-group">
-                <button class="btn btn-prymary btn-block">Enviar mensaje</button>
-            </div> 
-        </form>
-    </div> -->

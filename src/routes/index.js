@@ -8,12 +8,26 @@ router.get('/', (req, res) =>{
 
 });
 
-// pariodiaseo.com/seoprincipiantes.html
+// pariodiaseo.com/seo.html
 router.get('/seo', (req, res) =>{
-    // res.render(path.join(__dirname, 'views/seoprincipiantes.ejs'));
-    res.render('seo.html', { title: 'Seo para principiantes' });
+    // res.render(path.join(__dirname, 'views/seo.ejs'));
+    res.render('seo.html', { title: 'Qué es el Seo' });
 
 });
+
+// pariodiaseo.com/seo-principiantes.html
+router.get('/seo-principiantes', (req, res) =>{
+    // res.render(path.join(__dirname, 'views/seo-principiantes.ejs'));
+    res.render('seo-principiantes.html', { title: 'Seo para principiantes' });
+
+});
+
+// pariodiaseo.com/facilita-navegacion.html
+router.get('/facilita-navegacion', (req, res) =>{
+    res.render('facilita-navegacion.html', { title: 'Facilita la navegacion' });
+
+});
+
 
 
 module.exports = router;
