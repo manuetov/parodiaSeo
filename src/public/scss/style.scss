@@ -61,10 +61,10 @@ h3 {
   background-image: url(../img/A-Complete-Guide-for-Local-SEO.jpg);
   background-position: center;
   background-size: cover;
-  .uno {
+  div {
       margin-top:40px;
       .uno{
-        background-color: rgba(179, 218, 255, 0.877);
+        background-color: rgba(193, 225, 255, 0.795);
       }
       .dos{
         background-color: rgba(167, 184, 151, 0.877);
@@ -348,7 +348,7 @@ form {
   margin-bottom: 20px;
   div i {
     font-size: 18px;
-    color:#007bff;
+    color:#864df7;
   }
   .contact-info {
     color: #fff; 
@@ -379,7 +379,7 @@ form {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
   .footer-widget a:hover {
-    color: #007bff; }
+    color: #864df7;; }
 
 .footer-widget:after {
   content: "";
@@ -408,8 +408,8 @@ form {
     padding: 12px 24px 12px 17px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    border: 1px solid #007bff;
-    background: #007bff;
+    border: 1px solid #864df7;;
+    background: rgb(250, 103, 250);;
     color: #fff; }
   .dk-footer-form button:hover {
     cursor: pointer; }

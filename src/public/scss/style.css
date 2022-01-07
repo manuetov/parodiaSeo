@@ -59,19 +59,19 @@ h3 {
   background-size: cover;
 }
 
-.intro .uno {
+.intro div {
   margin-top: 40px;
 }
 
-.intro .uno .uno {
-  background-color: rgba(179, 218, 255, 0.877);
+.intro div .uno {
+  background-color: rgba(193, 225, 255, 0.795);
 }
 
-.intro .uno .dos {
+.intro div .dos {
   background-color: rgba(167, 184, 151, 0.877);
 }
 
-.intro .uno .tres {
+.intro div .tres {
   background-color: rgba(167, 247, 200, 0.89);
 }
 
@@ -356,7 +356,7 @@ form {
 
 .contact-us div i {
   font-size: 18px;
-  color: #007bff;
+  color: #864df7;
 }
 
 .contact-us .contact-info {
@@ -386,7 +386,7 @@ form {
 }
 
 .footer-widget a:hover {
-  color: #007bff;
+  color: #864df7;
 }
 
 .footer-widget:after {
@@ -423,8 +423,8 @@ form {
   padding: 12px 24px 12px 17px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  border: 1px solid #007bff;
-  background: #007bff;
+  border: 1px solid #864df7;
+  background: #fa67fa;
   color: #fff;
 }
 
