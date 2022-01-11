@@ -20,11 +20,11 @@ h4 {
 }
 
 h2 {
-  color: #fa67fa;
+  color: #fa67fa !important;
 }
 
 h3 {
-  color: #864df7;
+  color: #864df7 !important;
 }
 
 .nav-item {
@@ -116,8 +116,8 @@ h3 {
 .postit:hover {
   -webkit-box-shadow: -3px -4px 6px 8px #f29ef5;
           box-shadow: -3px -4px 6px 8px #f29ef5;
-  -webkit-transform: scale3d(1.1);
-          transform: scale3d(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 /*============ COLORS ================*/
@@ -154,7 +154,7 @@ h3 {
 }
 
 .postit[data-color="red"] {
-  background: #fc05053d;
+  background: #ff42423d;
 }
 
 .postit[data-color="orange"] .description {
@@ -302,7 +302,7 @@ form {
   z-index: 2;
 }
 
-.dk-footer-box-info .footer-social-link h3 {
+.dk-footer-box-info .footer-social-link {
   color: #fff;
   font-size: 24px;
   margin-bottom: 25px;

@@ -23,11 +23,11 @@ h4{
 }
 
 h2 {
-  color: rgb(250, 103, 250);
+  color: rgb(250, 103, 250) !important;
 }
 
 h3 {
-  color: #864df7;
+  color: #864df7 !important;
 }
 
 // --------------- navegacion ---------------------------
@@ -111,7 +111,7 @@ h3 {
 }
 .postit:hover{
   box-shadow: -3px -4px 6px 8px #f29ef5;
-  transform: scale3d(1.1);
+  transform: scale(1.05);
 }
 
 // ------------------------- post -it -------------------------------------------------------------------
@@ -147,7 +147,7 @@ h3 {
 }
 // ------------- rojo ----------------
 .postit[data-color="red"] {
-  background: #fc05053d;
+  background: #ff42423d;
 }
 .postit[data-color="orange"] .description {
   color: #000000;
@@ -307,7 +307,7 @@ form {
   background: #202020;
   padding: 40px;
   z-index: 2; }
-  .dk-footer-box-info .footer-social-link h3 {
+  .dk-footer-box-info .footer-social-link {
     color: #fff;
     font-size: 24px;
     margin-bottom: 25px; }
